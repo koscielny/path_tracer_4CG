@@ -1,0 +1,25 @@
+﻿Build started 2016/3/10 20:59:03.
+     1>Project "C:\Users\搞学习\Documents\__Project & Production\Graphics\Project\Project4CG\PathTracing-master\OriginalProject\OriginalProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\__my_Programs\Workstations&Tools\VS 2013 pro\VC\bin\CL.exe /c /I"C:\Users\搞学习\Documents\__Project & Production\Graphics\Project\Project4CG\PathTracing-master\headers" /I".\glm-0.9.4.2" /I.\include /I.\shaders /I.\lib /I"C:\Program Files (x86)\__my_Programs\Workstations&Tools\CodeBlocks\MinGW\include\GL" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS ..\KDTree.cpp ..\Light.cpp ..\Scene.cpp ..\Shapes.cpp ..\Transform.cpp ..\main.cpp ..\shaders.cpp
+         shaders.cpp
+     1>c:\users\搞学习\documents\__project & production\graphics\project\project4cg\pathtracing-master\shaders.cpp(3): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory
+         main.cpp
+     1>c:\users\搞学习\documents\__project & production\graphics\project\project4cg\pathtracing-master\main.cpp(11): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory
+         Transform.cpp
+     1>c:\users\搞学习\documents\__project & production\graphics\project\project4cg\pathtracing-master\headers\transform.h(12): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         Shapes.cpp
+     1>c:\users\搞学习\documents\__project & production\graphics\project\project4cg\pathtracing-master\headers\transform.h(12): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         Scene.cpp
+     1>c:\users\搞学习\documents\__project & production\graphics\project\project4cg\pathtracing-master\headers\freeimage.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\搞学习\documents\__project & production\graphics\project\project4cg\pathtracing-master\headers\transform.h(12): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         Light.cpp
+     1>c:\users\搞学习\documents\__project & production\graphics\project\project4cg\pathtracing-master\headers\transform.h(12): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         KDTree.cpp
+     1>c:\users\搞学习\documents\__project & production\graphics\project\project4cg\pathtracing-master\headers\transform.h(12): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\搞学习\Documents\__Project & Production\Graphics\Project\Project4CG\PathTracing-master\OriginalProject\OriginalProject.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.46

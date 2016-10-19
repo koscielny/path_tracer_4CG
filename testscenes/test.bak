@@ -1,0 +1,93 @@
+size 480 480
+output bunny.png
+maxdepth 5
+antialias 4
+camera 0 .25 0.2 0 0.25 0 0 1 0 120
+#eye center up
+
+#translate 0 -.033 0
+#scale 1 2 1
+emission 10 10 10
+#light!
+vertex -0.15 0.39 -0.1
+#右后
+vertex 0.1 0.39 -0.1
+#右前
+vertex 0.1 0.39 0.025
+#左前
+vertex -0.15 0.39 0.025
+
+tri 0 1 2
+tri 0 2 3
+
+
+
+
+
+emission 0 0 0
+diffuse .4 .42 .4
+specular 0.1 0.1 0.1
+#x右 y上 z前
+#左后
+vertex -1 -0.1 -1
+#右后
+vertex 1 -0.1 -1
+#右前
+vertex 1 -0.1 1
+#左前
+vertex -1 -0.1 1
+
+tri 4 5 6
+tri 4 6 7
+
+emission 0 0 0
+diffuse .4 .42 .4
+specular .1 .1 .1
+#left wall
+#左后
+vertex -0.5 -.1 -0.5 
+
+vertex -0.5 0.4 -0.5
+
+vertex -0.5 0.4 0.2
+#左前
+vertex -0.5 -.1 0.2
+tri 8 9 10
+tri 8 10 11
+
+
+#right wall
+vertex 0.5 0.4 -0.5 
+#右后
+vertex 0.5 -.1 -0.5
+#右前
+vertex 0.5 -.1 0.2
+
+vertex 0.5 0.4 0.2
+tri 12 13 14
+tri 12 14 15
+
+
+
+#back wall
+#左后
+vertex -0.5 -.1 -0.5 
+#右后
+vertex 0.5 -.1 -0.5
+vertex 0.5 0.4 -0.5
+vertex -0.5 0.4 -0.5
+tri 16 17 18
+tri 16 18 19
+
+#celling
+#左后
+vertex -0.5 0.4 -0.5 
+#右后
+vertex 0.5 0.4 -0.5
+#右前
+vertex 0.5 0.4 0.2
+#左前
+vertex -0.5 0.4 0.2
+tri 20 21 22
+tri 20 22 23
+

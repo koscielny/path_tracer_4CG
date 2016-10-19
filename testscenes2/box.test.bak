@@ -1,0 +1,45 @@
+size 480 480
+output bunny.png
+maxdepth 5
+antialias 4
+#camera 0 .2 .2 0 .0 0 0 1 0 50
+
+camera 0 .0 .2 0 .1 0 0 1 0 100
+
+#AttributeBegin
+#translate 0 -.033 0
+#Shape "trianglemesh"
+
+
+diffuse  1 1 1
+specular 1 1 1
+shininess 100.0
+diffuseMaterial .0 .0 1 1 1
+
+
+emission 3 3 3
+#light!
+
+vertex -0.3 0.4 -0.3
+vertex 0.3 0.4 -0.3
+vertex 0.3 0.4 0.3
+vertex -0.3 0.4 0.3
+tri 0 1 2
+tri 0 2 3
+
+
+
+
+
+emission 0 0 0
+
+diffuse .4 .42 .4
+specular 1 1 1
+shininess 10.0
+diffuseMaterial .0 .0 .4 .42 .4
+vertex -1 0 -1
+vertex 1 0 -1
+vertex 1 0 1
+vertex -1 0 1
+tri 4 5 6
+tri 4 6 7

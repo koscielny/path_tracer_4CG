@@ -1,0 +1,17 @@
+size 480 480
+output bunny.png
+maxdepth 3
+antialias 1
+camera 0 -200 0 0 -100 0 0 1 0 40
+#eye center up
+
+pointlight 10 10 10 0 0 10 1 1 1
+
+diffuse .5 .5 .2
+specular .5 .5 .2
+shininess 100
+pushTransform
+translate 0 0 0
+scale 100 100 100
+sphere 0 0 0 1
+popTransform
