@@ -31,22 +31,26 @@ Path Tracer 4CG
 
 <p align="center">
 <img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_10.png"/>
-_光线采样数 10*4 spp _
+_光线采样数 10*4 spp_
+https://github.com/koscielny/path_tracer_4CG/raw/master/testscenes2/cornell_box.test
 </p>
 
 <p align="center">
 <img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_12.png"/>
+_光线采样数 10*4 spp_
+https://github.com/koscielny/path_tracer_4CG/raw/master/testscene2/cornell_box_2sphere.test
 </p>
-_光线采样数 10*4 spp _
 
 <p align="center">
 <img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_21.png"/>
-_光线采样数 20*4 spp _
+_光线采样数 20*4 spp_
+https://github.com/koscielny/path_tracer_4CG/raw/master/testscenes2/cornell_box_2sphere_rg.test
 </p>
 
 <p align="center">
 <img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/bunny_29.png"/>
-_光线采样数 30*4 spp _
+_光线采样数 30*4 spp_
+https://github.com/koscielny/path_tracer_4CG/raw/master/testscenes2/bunny.test
 </p>
 
 
