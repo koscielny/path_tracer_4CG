@@ -28,21 +28,27 @@ Path Tracer 4CG
 
 渲染范例
 ----
-<div align=center>
-![cornell_box](https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_10.png)
+
+<p align="center">
+<img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_10.png"/>
+_光线采样数 10*4 spp _
+</p>
+
+<p align="center">
+<img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_12.png"/>
+</p>
 _光线采样数 10*4 spp _
 
-![glass](https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_12.png)
-_光线采样数 10*4 spp _
-
-![specular_sphere](https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_21.png)
-
+<p align="center">
+<img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_21.png"/>
 _光线采样数 20*4 spp _
+</p>
 
-![cook-torrance_bunny](https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/bunny_29.png)
+<p align="center">
+<img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/bunny_29.png"/>
 _光线采样数 30*4 spp _
+</p>
 
-</div>
 
 参考文献
 -----
