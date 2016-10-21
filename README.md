@@ -7,8 +7,7 @@ Path Tracer 4CG
   - Fast BVH树（thanks to [Brandon Pelfrey](https://github.com/brandonpelfrey/Fast-BVH)）
 * 材质
   - Cook-Torrance
-  - FrostedGlass（毛玻璃折射）
-  - SmoothGlass（透明玻璃折射）
+  - 玻璃折射
   - 理想镜面反射
   - 漫反射
 * 光源
@@ -29,13 +28,13 @@ Path Tracer 4CG
 
 渲染范例
 ----
-https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_10.png
+![cornell_box](https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_10.png)
 
-https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_12.png
+![glass](https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_12.png)
 
-https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_21.png
+![specular_sphere](https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_21.png)
 
-https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/bunny_29.png
+![cook-torrance_bunny](https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/bunny_29.png)
 
 
 参考文献
