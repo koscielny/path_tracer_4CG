@@ -59,6 +59,8 @@ https://github.com/koscielny/path_tracer_4CG/raw/master/testscenes2/bunny.test
 -----
 Jensen, H. W, et al. "Monte Carlo Ray Tracing Course Notes." of Complex Objects”, Computers and Graphics (2003):215--224.
 
+Veach, Eric. "Robust monte carlo methods for light transport simulation." Stanford University, 1997.
+
 Kajiya, James T. "The rendering equation." Acm Siggraph Computer Graphics 20.4(1986):143-150.
 
 Pharr, Matt, and G. Humphreys. "Physically Based Rendering, Second Edition: From Theory To Implementation." (2010).
