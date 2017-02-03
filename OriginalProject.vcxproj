@@ -11,39 +11,37 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="headers\glmHeader.h" />
-    <ClInclude Include="headers\sceneaccel\bvh.hpp" />
     <ClInclude Include="headers\util\aabb.hpp" />
     <ClInclude Include="headers\util\rtmath.hpp" />
     <ClInclude Include="headers\util\vec3.hpp" />
-    <ClInclude Include="includeALL.h" />
-    <ClInclude Include="Material.h" />
-    <ClInclude Include="headers\FreeImage.h" />
-    <ClInclude Include="headers\Intersection.h" />
-    <ClInclude Include="headers\KDTree.h" />
-    <ClInclude Include="headers\Light.h" />
-    <ClInclude Include="headers\Ray.h" />
-    <ClInclude Include="headers\Scene.h" />
-    <ClInclude Include="headers\shaders.h" />
-    <ClInclude Include="headers\Shapes.h" />
-    <ClInclude Include="headers\Transform.h" />
+    <ClInclude Include="include\FreeImage.h" />
+    <ClInclude Include="include\glmHeader.h" />
+    <ClInclude Include="include\Header.h" />
+    <ClInclude Include="include\includeALL.h" />
+    <ClInclude Include="include\Intersection.h" />
+    <ClInclude Include="include\KDTree.h" />
+    <ClInclude Include="include\Light.h" />
+    <ClInclude Include="include\Material.h" />
+    <ClInclude Include="include\Ray.h" />
+    <ClInclude Include="include\Scene.h" />
+    <ClInclude Include="include\shaders.h" />
+    <ClInclude Include="include\Shapes.h" />
+    <ClInclude Include="include\Transform.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="all.cpp" />
-    <ClCompile Include="CookTorrance.cpp" />
-    <ClCompile Include="diffuse.cpp" />
-    <ClCompile Include="FrostedGlass.cpp" />
-    <ClCompile Include="KDTree.cpp" />
-    <ClCompile Include="Light.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneAccel\bvh.cpp" />
-    <ClCompile Include="shaders.cpp" />
-    <ClCompile Include="Shapes.cpp" />
-    <ClCompile Include="SmoothGlass.cpp" />
-    <ClCompile Include="Specular.cpp" />
-    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="src\all.cpp" />
+    <ClCompile Include="src\CookTorrance.cpp" />
+    <ClCompile Include="src\diffuse.cpp" />
+    <ClCompile Include="src\FrostedGlass.cpp" />
+    <ClCompile Include="src\KDTree.cpp" />
+    <ClCompile Include="src\Light.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\shaders.cpp" />
+    <ClCompile Include="src\Shapes.cpp" />
+    <ClCompile Include="src\SmoothGlass.cpp" />
+    <ClCompile Include="src\Specular.cpp" />
     <ClCompile Include="util\aabb.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
