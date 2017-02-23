@@ -34,26 +34,26 @@ Sample Image
 <p align="center">
 <img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_10.png"/>
 </p>
-_光线采样数 10*4 spp_
+_samples per pixel 10*4_
 https://github.com/koscielny/path_tracer_4CG/raw/master/testscenes2/cornell_box.test
 
 
 <p align="center">
 <img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_12.png"/>
 </p>
-_光线采样数 10*4 spp_
+_samples per pixel 10*4_
 https://github.com/koscielny/path_tracer_4CG/raw/master/testscene2/cornell_box_2sphere.test
 
 <p align="center">
 <img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/cornell_box_21.png"/>
 </p>
-_光线采样数 20*4 spp_
+_samples per pixel 20*4_
 https://github.com/koscielny/path_tracer_4CG/raw/master/testscenes2/cornell_box_2sphere_rg.test
 
 <p align="center">
 <img src="https://github.com/koscielny/path_tracer_4CG/raw/master/result_image/bunny_29.png"/>
 </p>
-_光线采样数 30*4 spp_
+_samples per pixel 30*4_
 https://github.com/koscielny/path_tracer_4CG/raw/master/testscenes2/bunny.test
 
 
@@ -71,10 +71,10 @@ Pharr, Matt, and G. Humphreys. "Physically Based Rendering, Second Edition: From
 
 Fearutres To Do
 ------------------
-- texture
+- texture and environment mapping
 - photon mapping
 - multiple sampler and filter
-- quadrilateral mesh supporting
+- quadrilateral mesh support
 
 Path Tracer 4CG
 ====
